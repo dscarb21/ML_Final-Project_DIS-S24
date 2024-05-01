@@ -29,5 +29,27 @@ Fit different Netflix shows in a number of different clusters based on the most 
 Natural language processing, or NLP, combines computational linguistics—rule-based modeling of human language—with statistical and machine learning models to enable computers and digital devices to recognize, understand and generate text and speech (IBM).
 Several NLP tasks break down human text and voice data in ways that help the computer make sense of what it's ingesting. Some of these tasks include speech recognition, part of speech tagging, word sense disambiguation, translation, etc.
 
+## Project Implementation Steps
+
+- Data preprocessing: Turn natural language data into numerical values that can be understood by a computational model. Methods used:
+ -  Tokenization & Stemming
+ - Filter out unnecessary tokens (punctuation, stopwords, LDA visualization)
+ - Filter out widespread words among documents
+ - Vectorize words and sentences
+- Clustering: Use K-Means Clustering to group shows with most similar plots
+
+# Find Similar Shows Application - Demo
+
+We have enclosed our model into a front-end application that can be used to recommend 5 similar titles given a show description. It's the same model trained on the exact same dataset contained in our Jupyter notebook, so expect consistent results and recommendations limited to the 2021 Netflix catalogue.
+
+## How to use the demo app?
+Run the following locally:
+```
+git clone https://github.com/dscarb21/netflix-nlp.git
+cd netflix-nlp/
+pip install Flask
+python app.py
+```
+The Python file should run and display an IP address that can be used to demo the application on a web browser.
 
 
