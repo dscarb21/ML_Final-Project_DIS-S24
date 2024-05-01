@@ -52,4 +52,5 @@ python3 app.py
 ```
 The Python file should run and display an IP address that can be used to demo the application on a web browser.
 
-
+### References and Resources
+We didn't go through Natural Language Processing in class. Therefore, we relied on other educational resources to navigate the intricacies of our project's scope, especially in regards to learning about NLP techniques. Our primary resource was [DataCamp](https://www.datacamp.com) projects and NLTK course. We also read the documentation of libraries used, such as SKLearn, Pandas, NumPy, NLTK, and Matplotlib to achieve our the results.
