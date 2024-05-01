@@ -12,3 +12,10 @@ The task of predicting similarity among TV shows holds significant importance as
 Can we find similar Netflix shows by analyzing similarity of show descriptions? 
 ### Solution Idea
 Fit different Netflix shows in a number of different clusters based on the most important words of their plot descriptions.
+
+## Dataset
+
+[Netflix TV Shows 2021](https://www.kaggle.com/datasets/muhammadkashif724/netflix-tv-shows-2021) (Source: Kaggle/Muhammad Kashif). Netflix is an American subscription streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages. 
+- Number of titles: 2662 unique values.
+- License: MIT.
+- Collaborators: Muhammad Kashif (Owner).
