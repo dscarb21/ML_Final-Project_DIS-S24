@@ -21,7 +21,7 @@ Fit different Netflix shows in a number of different clusters based on the most 
 - License: MIT.
 - Collaborators: Muhammad Kashif (Owner).
 
-# What is Natural Language Processing?
+## What is Natural Language Processing?
 
 > [!IMPORTANT]
 > This project uses natural language as its primary input data type. Thus, we need to use Natural Language Processing techniques to handle data in this project.
@@ -38,11 +38,11 @@ Several NLP tasks break down human text and voice data in ways that help the com
  - Vectorize words and sentences
 - Clustering: Use K-Means Clustering to group shows with most similar plots
 
-# App Demo: Finding Similar Shows 
+## App Demo: Finding Similar Shows 
 
 We've encapsulated our model within a user-friendly front-end application, which allows users to receive recommendations for 5 similar titles based on a user-provided show description. This application leverages the identical model trained on the same dataset outlined in our Jupyter notebook, ensuring consistent results. Please note that recommendations are limited to the 2021 Netflix catalogue.
 
-## How to use the demo app?
+### How to run the demo app?
 Run the following locally:
 ```
 git clone https://github.com/dscarb21/netflix-nlp.git
