@@ -15,10 +15,21 @@ Fit different Netflix shows in a number of different clusters based on the most 
 
 ## Dataset
 
+> [!NOTE]
+> This dataset is from 2021. Using a more up-to-date dataset would be ideal for a more powerful model.
+
 [Netflix TV Shows 2021](https://www.kaggle.com/datasets/muhammadkashif724/netflix-tv-shows-2021) (Source: Kaggle/Muhammad Kashif). Netflix is an American subscription streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages. 
 - Number of titles: 2662 unique values.
 - License: MIT.
 - Collaborators: Muhammad Kashif (Owner).
 
-> [!NOTE]
-> This dataset is from 2021. Using a more up-to-date dataset would be ideal for a more powerful model.
+# What is Natural Language Processing?
+
+> [!IMPORTANT]
+> This project uses natural language as its primary input data type. Thus, we need to use Natural Language Processing techniques to handle data in this project.
+
+Natural language processing, or NLP, combines computational linguistics—rule-based modeling of human language—with statistical and machine learning models to enable computers and digital devices to recognize, understand and generate text and speech (IBM).
+Several NLP tasks break down human text and voice data in ways that help the computer make sense of what it's ingesting. Some of these tasks include speech recognition, part of speech tagging, word sense disambiguation, translation, etc.
+
+
+
