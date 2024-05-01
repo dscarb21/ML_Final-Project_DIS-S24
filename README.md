@@ -19,3 +19,6 @@ Fit different Netflix shows in a number of different clusters based on the most 
 - Number of titles: 2662 unique values.
 - License: MIT.
 - Collaborators: Muhammad Kashif (Owner).
+
+> [!NOTE]
+> This dataset is from 2021. Using a more up-to-date dataset would be ideal for a more powerful model.
