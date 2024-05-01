@@ -38,9 +38,9 @@ Several NLP tasks break down human text and voice data in ways that help the com
  - Vectorize words and sentences
 - Clustering: Use K-Means Clustering to group shows with most similar plots
 
-# Find Similar Shows Application - Demo
+# App Demo: Finding Similar Shows 
 
-We have enclosed our model into a front-end application that can be used to recommend 5 similar titles given a show description. It's the same model trained on the exact same dataset contained in our Jupyter notebook, so expect consistent results and recommendations limited to the 2021 Netflix catalogue.
+We've encapsulated our model within a user-friendly front-end application, which allows users to receive recommendations for 5 similar titles based on a user-provided show description. This application leverages the identical model trained on the same dataset outlined in our Jupyter notebook, ensuring consistent results. Please note that recommendations are limited to the 2021 Netflix catalogue.
 
 ## How to use the demo app?
 Run the following locally:
@@ -48,7 +48,7 @@ Run the following locally:
 git clone https://github.com/dscarb21/netflix-nlp.git
 cd netflix-nlp/
 pip install Flask
-python app.py
+python3 app.py
 ```
 The Python file should run and display an IP address that can be used to demo the application on a web browser.
 
