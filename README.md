@@ -1,6 +1,8 @@
 # Analyzing Netflix TV Shows Similarity via Plot Summaries
 **Group Members:** Pedro Cruz, Sydney Eriksson, David Scarborough
+
 **Professor:** Lucy McCarren
+
 **Class:** Machine Learning B - DIS Spring 2024
 
 ## Project Overview
