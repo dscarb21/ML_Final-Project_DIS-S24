@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similar Movies</title>
+</head>
+<body>
+    <h1>Top Similar Movies</h1>
+    {% for title, description in similar_movies_data %}
+        <h2>{{ title }}</h2>
+        <p>{{ description }}</p>
+    {% endfor %}
+</body>
+</html>
