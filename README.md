@@ -32,11 +32,15 @@ Several NLP tasks break down human text and voice data in ways that help the com
 ## Project Implementation Steps
 
 - Data preprocessing: Turn natural language data into numerical values that can be understood by a computational model. Methods used:
- -  Tokenization & Stemming
- - Filter out unnecessary tokens (punctuation, stopwords, LDA visualization)
- - Filter out widespread words among documents
- - Vectorize words and sentences
+  - Tokenization & Stemming
+  - Filter out unnecessary tokens (punctuation, stopwords, LDA visualization)
+  - Filter out widespread words among documents
+  - Vectorize words and sentences
 - Clustering: Use K-Means Clustering to group shows with most similar plots
+
+ ## Methods
+
+ 
 
 ## App Demo: Finding Similar Shows 
 
