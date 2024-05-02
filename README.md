@@ -52,6 +52,10 @@ After preprocessing, we used a few different methods to analyze the similarity a
 - **Clustering K-Means Algorithm**: We used this approach to form clusters to assess similarity among vectors produced during the NLP preprocessing phase.
 - **SKLearn's Cosine Similarity**: We can  do some linear algebra to check how "similar" these vectors represent the plots. Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to calculate document similarity in text analysis (ScienceDirect).
 
+## Ethical Considerations
+
+Today, many apps have customized algorithms for recomending content to view such as Tiktok, Instagram, Youtube, and Netflix. It is important to note that there can be downsides to having an algorithm only recomend content that you will like. In an extreme case, if someone is consuming a lot of political content related to one specific political group, a "good" algorithm would continue to recomend similar content. This is problematic, because in order for someone to make an informed decision on who to vote for, they need to be exposed to all political parties. If they are only consuming content coming from one opinion, they may vote for someone that they would not have if they were exposed to content from the other side. On a less extreme note, if Netflix only recomends content that is almost exactly the same as what a viewer has been watching, the viewer may miss out on a genre of film that they had never been exposed to.
+
 ## Learnings & Conclusion
 
 - We used a silhouette score alongside the squared error sum to determine the best value of k to use in K-Means Clustering. The silhouette score measures how close each point is to each other in its group and how far away it is from each point outside of its group. A higher silhouette score is better, and a score between 0.25 and 0.5 is considered fair. We also want to reduce the sum of squared error. A choice of k = 4 seems reasonable since it is the maximum of the silhouette index. Although it is not the minimum of the sum of squared error, the sum of squared error is decreasing relatively slowly given the scale, so that does not weigh as heavily in the decision. 
@@ -65,10 +69,6 @@ After preprocessing, we used a few different methods to analyze the similarity a
 ## App Demo: Finding Similar Shows 
 
 We've encapsulated our model within a user-friendly front-end application, which allows users to receive recommendations for 5 similar titles based on a user-provided show description. This application leverages the identical model trained on the same dataset outlined in our Jupyter notebook, ensuring consistent results. Please note that recommendations are limited to the 2021 Netflix catalog.
-
-## Ethical Considerations
-
-Today, many apps have customized algorithms for reccomending content to view such as Tiktok, Instagram, Youtube, and Netflix. It is important to note that there can be downsides to having an algorithm only recommend content that you will like. In an extreme case, if someone is consuming a lot of political content related to one specific political group, a "good" algorithm would continue to recommend similar content. This is problematic, because in order for someone to make an informed decision on who to vote for, they need to be exposed to all political parties. If they are only consuming content coming from one opinion, they may vote for someone that they would not have if they were exposed to content from the other side. On a less extreme note, if Netflix only recommends content that is almost exactly the same as what a viewer has been watching, the viewer may miss out on a genre of film that they had never been exposed to.
 
 ### How to run the demo app?
 Run the following locally:
@@ -89,4 +89,5 @@ The Python file should run and display an IP address that can be used to demo th
 - “What Is Natural Language Processing?” IBM, 19 Mar. 2024, www.ibm.com/topics/natural-language-processing. 
 - DataCamp. “Natural Language Processing in Python.” DataCamp, www.datacamp.com/tracks/natural-language-processing-in-python. Accessed 1 May 2024.
 - “Scipy.Cluster.Hierarchy.Dendrogram#.” Scipy.Cluster.Hierarchy.Dendrogram - SciPy v1.13.0 Manual, docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.dendrogram.html. Accessed 2 May 2024.
-- “Cosine Similarity.” Cosine Similarity - an Overview | ScienceDirect Topics, www.sciencedirect.com/topics/computer-science/cosine-similarity. Accessed 2 May 2024. 
+- “Cosine Similarity.” Cosine Similarity - an Overview | ScienceDirect Topics, www.sciencedirect.com/topics/computer-science/cosine-similarity. Accessed 2 May 2024.
+- https://jyotiyadav99111.medium.com/selecting-optimal-number-of-clusters-in-kmeans-algorithm-silhouette-score-c0d9ebb11308. Acessed 29 April 2024.
