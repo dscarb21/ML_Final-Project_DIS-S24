@@ -66,6 +66,10 @@ After preprocessing, we used a few different methods to analyze the similarity a
 
 We've encapsulated our model within a user-friendly front-end application, which allows users to receive recommendations for 5 similar titles based on a user-provided show description. This application leverages the identical model trained on the same dataset outlined in our Jupyter notebook, ensuring consistent results. Please note that recommendations are limited to the 2021 Netflix catalog.
 
+## Ethical Considerations
+
+Today, many apps have customized algorithms for reccomending content to view such as Tiktok, Instagram, Youtube, and Netflix. It is important to note that there can be downsides to having an algorithm only recommend content that you will like. In an extreme case, if someone is consuming a lot of political content related to one specific political group, a "good" algorithm would continue to recommend similar content. This is problematic, because in order for someone to make an informed decision on who to vote for, they need to be exposed to all political parties. If they are only consuming content coming from one opinion, they may vote for someone that they would not have if they were exposed to content from the other side. On a less extreme note, if Netflix only recommends content that is almost exactly the same as what a viewer has been watching, the viewer may miss out on a genre of film that they had never been exposed to.
+
 ### How to run the demo app?
 Run the following locally:
 ```
